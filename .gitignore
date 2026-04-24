@@ -1,0 +1,28 @@
+# Virtual Environments
+DiffEqVenv/
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Evolution Data (Large datasets and results)
+EvolutionDataAnalysis/Lower Rhine-Meuse paper-20260212T134708Z-1-001/
+EvolutionDataAnalysis/timeseries/
+EvolutionDataAnalysis/*.png
+EvolutionDataAnalysis/*.geno
+EvolutionDataAnalysis/*.snp
+EvolutionDataAnalysis/*.ind
+
+# Project Specific Output/Logs
+*.log
+*.png
+*.pdf
+
+# OS Specific
+.DS_Store
+Thumbs.db
